@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+        <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+        <title>Covoiturage</title>
+    </head>
+<body>
+    <ion-content [fullscreen]="true">
+        <div id="lmain">
+            <img src="image/inscri.jpg"/>
+            
+         <form action="Connect" id="inscri" method="post">
+             <h1>Connecter</h1>
+        
+            <ion-item>
+                <ion-label>E-mail</ion-label>
+                <ion-input type="email" name="email"></ion-input>
+              </ion-item>
+              
+
+              <ion-item>
+                <ion-label>Mot de Passe</ion-label>
+                <ion-input type="password" name="mdp"></ion-input>
+              </ion-item>
+
+                 <ion-input type="submit" id="log" value="Connecter"></ion-input>
+  
+
+              <!--  <a href="#">Mot de Passe Oublié</a>-->
+
+              <a href="inscription.html">je n'ai pas un compte </a>
+
+            </form>
+       
+        </div>
+    </ion-content>
+</body>
+</html>

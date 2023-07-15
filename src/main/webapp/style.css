@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+ion-toolbar{
+    color: #0186c9;
+}
+
+ion-content{
+    --background: none;
+    background: url("./image/indexbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#main , #lmain ,#trajet {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 12em;
+    flex-wrap: wrap;
+}
+
+#lmain ,#trajet ,#trajetlist {
+    margin-top: 5em;
+    background: white;
+    border-radius: 13px;
+    box-shadow: 1px 1px 13px -6px black;
+    padding: 1em;
+}
+
+#trajet{
+    margin-top: 2em;
+
+}
+
+#lmain ion-item , #trajet ion-item{
+    color: #747474;
+    border-left: solid;
+    border-color: #00acee;
+}
+#trajet ion-item{
+    margin: 0.8em;
+}
+#lmain h1 ,  #trajet h1 {
+text-align: center;
+}
+#lmain img {
+    width: 26em;
+    border-radius: 10em;
+    margin: 1em;
+}
+form#inscri {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+#main  ion-item {
+    width: 16em;
+    color: #747474;
+    border-left: solid;
+    border-color: #d3d3d3;
+}
+
+ion-button {
+    height: 3.5em;
+    --border-radius: none;
+    --box-shadow: 0px 2px 5px -1px #7a7a7a;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    margin: 1em;
+}
+
+#log  
+{
+text-align: center;
+background: #00a2e2;
+color: white;
+border-radius: 10px;
+box-shadow: 0px 2px 5px -1px #7a7a7a;
+}
+
+.myitem {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.it {
+    width: 100%;
+}
+
+.it h4 {
+    text-align: center;
+    background: #1eabe9;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 0.4em;
+}
+@media only screen and (max-width: 500px) {
+    body {
+      font-size: 14px;
+    }
+    #lmain h1 ,  #trajet h1 {
+        text-align: center;
+        font-size: 1.3em;
+        }
+  }
